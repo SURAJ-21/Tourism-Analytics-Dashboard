@@ -1,0 +1,17 @@
+
+# # Enable the rewrite engine
+# RewriteEngine On
+
+# # Deny direct access to the src folder and prevent any file exposure
+# RewriteRule ^src/ - [F,L]
+
+# # Route requests for '/router' to 'src/router/index.php'
+# RewriteRule ^handler$ ../src/handler/landing.php [L]
+
+# # Serve existing files like index.html, CSS, JS, images in the public folder
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+
+# # If no file or directory exists in the public folder, redirect to index.html
+# RewriteRule ^(.*)$ index.html [L]
+
