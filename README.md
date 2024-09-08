@@ -70,10 +70,10 @@ git clone https://github.com/yourusername/tourism-analytics-dashboard.git
 
 ### User InterFace
 
-![Login-signUp]('src/images/login')
+![Login-signUp]('src/images/login.PNG')
 
-![Detail_netry_form]('src/images/landing')
+![Detail_netry_form]('src/images/landing.PNG')
 
-![Result_list]('src/images/result')
+![Result_list]('src/images/result.PNG')
 
-![Graphical_analysis]('src/images/bar-chart')
+![Graphical_analysis]('src/images/bar-chart.PNG')
