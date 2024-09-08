@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Tourism Analytics Dashboard** is a web-based application that provides a detailed analysis of tourist data for India from 2020 to 2024. It offers graphical representations of data categorized by age, airport, city, state, transportation mode, and gender. This project integrates HTML, CSS, JavaScript for the frontend, PHP for the backend, and SQL/Oracle for database management.
+**Tourism Analytics Dashboard** is a web-based application that provides a detailed analysis of tourist data for India from 2020 to 2024. Based on the parameters given by the users , a dynamic query is generated and fired to extract data from the database(oracle). It offers graphical representations of data categorized by age, airport, city, state, transportation mode, and gender. This project integrates HTML, CSS, JavaScript for the frontend, PHP for the backend, and SQL/Oracle for database management.
 
 ## Features
 
